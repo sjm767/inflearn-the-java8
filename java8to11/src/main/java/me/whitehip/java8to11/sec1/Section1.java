@@ -1,7 +1,9 @@
 package me.whitehip.java8to11.sec1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
 import java.util.function.Consumer;
@@ -116,9 +118,6 @@ public class Section1 {
     for (String name : names) {
       System.out.println("name = " + name);
     }
-
-
-
   }
 
   private void run() {
